@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/maujoe.simple_wind_shader/shaders/wind_shader_2d.shader" type="Shader" id=1]
+[ext_resource path="res://assets/maujoe.simple_wind_shader/demo/textures/grass.png" type="Texture" id=2]
+
+[sub_resource type="ShaderMaterial" id=1]
+
+render_priority = 0
+shader = ExtResource( 1 )
+shader_param/speed = 1.0
+shader_param/minStrength = 0.1
+shader_param/maxStrength = 0.4
+shader_param/strengthScale = 100.0
+shader_param/interval = 2.0
+shader_param/detail = 4.0
+shader_param/distortion = 0.0
+shader_param/heightOffset = 0.0
+_sections_unfolded = [ "shader_param" ]
+
+[node name="Node" type="Node" index="0"]
+
+[node name="grass" type="Sprite" parent="." index="0"]
+
+material = SubResource( 1 )
+position = Vector2( 521.145, 473.75 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Material", "Offset", "Transform" ]
+
+
