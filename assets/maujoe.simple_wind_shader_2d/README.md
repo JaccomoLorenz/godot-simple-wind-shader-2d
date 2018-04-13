@@ -1,7 +1,7 @@
 # Simple Wind Shader
 
 A simple 2D shader for the godot engine that give sprites like grass or plants a wiggle/wind effect.
-This shader is a ported version of the [3D version](https://github.com/user/repo/blob/branch/other_file.md)
+This shader is a ported version of the [3D version](https://github.com/Maujoe/godot-simple-wind-shader)
 
 ## How to use
 
