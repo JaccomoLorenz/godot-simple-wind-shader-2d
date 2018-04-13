@@ -11,8 +11,8 @@ config_version=3
 [application]
 
 config/name="Simple Wind Shader 2D"
-run/main_scene="res://assets/maujoe.simple_wind_shader/demo/demo.tscn"
-config/icon="res://assets/maujoe.simple_wind_shader/icon.png"
+run/main_scene="res://assets/maujoe.simple_wind_shader_2d/demo/demo.tscn"
+config/icon="res://assets/maujoe.simple_wind_shader_2d/icon.png"
 
 [rendering]
 

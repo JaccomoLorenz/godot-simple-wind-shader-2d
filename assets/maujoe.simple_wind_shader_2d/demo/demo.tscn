@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://assets/maujoe.simple_wind_shader/shaders/wind_shader_2d.shader" type="Shader" id=1]
-[ext_resource path="res://assets/maujoe.simple_wind_shader/demo/textures/grass.png" type="Texture" id=2]
+[ext_resource path="res://assets/maujoe.simple_wind_shader_2d/shaders/wind_shader_2d.shader" type="Shader" id=1]
+[ext_resource path="res://assets/maujoe.simple_wind_shader_2d/demo/textures/grass.png" type="Texture" id=2]
 
 [sub_resource type="ShaderMaterial" id=1]
 

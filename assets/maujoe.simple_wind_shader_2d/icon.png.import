@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-854b4de5ad922ca4d86341a7f73a49ad.stex"
+path="res://.import/icon.png-7e008c6b8a448f4d965030dadb2432d7.stex"
 
 [deps]
 
-source_file="res://assets/maujoe.simple_wind_shader/icon.png"
+source_file="res://assets/maujoe.simple_wind_shader_2d/icon.png"
 source_md5="7545d1fc511486f77259d052c3a36963"
 
-dest_files=[ "res://.import/icon.png-854b4de5ad922ca4d86341a7f73a49ad.stex" ]
+dest_files=[ "res://.import/icon.png-7e008c6b8a448f4d965030dadb2432d7.stex" ]
 dest_md5="9357182646f5a690767e98c7571f37fc"
 
 [params]
