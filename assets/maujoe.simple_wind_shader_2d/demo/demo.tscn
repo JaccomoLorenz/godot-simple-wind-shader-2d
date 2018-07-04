@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://assets/maujoe.simple_wind_shader_2d/shaders/wind_shader_2d.shader" type="Shader" id=1]
+[ext_resource path="res://assets/maujoe.simple_wind_shader_2d/shaders/wind_2d.shader" type="Shader" id=1]
 [ext_resource path="res://assets/maujoe.simple_wind_shader_2d/demo/textures/grass.png" type="Texture" id=2]
 
 [sub_resource type="ShaderMaterial" id=1]
@@ -13,7 +13,7 @@ shader_param/maxStrength = 0.4
 shader_param/strengthScale = 100.0
 shader_param/interval = 2.0
 shader_param/detail = 4.0
-shader_param/distortion = 0.0
+shader_param/distortion = 1.0
 shader_param/heightOffset = 0.0
 _sections_unfolded = [ "shader_param" ]
 
