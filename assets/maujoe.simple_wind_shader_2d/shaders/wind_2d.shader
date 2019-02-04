@@ -22,5 +22,5 @@ float getWind(vec2 vertex, vec2 uv, float timer){
 	}
 
 void vertex() {
-	VERTEX.x += getWind(VERTEX, UV, TIME);
+	VERTEX.x += getWind(VERTEX.xy, UV, TIME);
 }
